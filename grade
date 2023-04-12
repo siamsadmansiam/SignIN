@@ -1,0 +1,52 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+    printf("                                          **********************\n");
+    printf("                                          *  Result Generator  *\n");
+    printf("                                          **********************\n");
+    printf("                        ------------------------------------------------------------\n");
+    printf("                        |  1.Show the marks against all subjects       [Press-1]    |\n");
+    printf("                        |  2.Show the students ID and the grade        [Press-2]    |\n");
+    printf("                        |  3.Show all merit position                   [Press-3]    |\n");
+    printf("                        |  4.Show how much students got which grade    [Press-4]    |\n");
+    printf("                        |                                                           |\n");
+    printf("                        ------------------------------------------------------------\n");
+    int press;
+    presss:
+        printf("\n");
+        printf("Enter your choice:");
+    scanf("%d",&press);
+
+
+    if(press==3){
+    printf("\n");
+    printf(" --------------------\n");
+    printf("|  GRADE   |  COUNT  |\n");
+    printf("|----------|---------|\n");
+    printf("|    A+    |    7    |\n");
+    printf("|----------|---------|\n");
+    printf("|    A     |    5    |\n");
+    printf("|----------|---------|\n");
+    printf("|    A-    |    3    |\n");
+    printf("|----------|---------|\n");
+    printf("|    B+    |    1    |\n");
+    printf("|----------|---------|\n");
+    printf("|    B     |    1    |\n");
+    printf("|----------|---------|\n");
+    printf("|    B-    |    1    |\n");
+    printf("|----------|---------|\n");
+    printf("|    C+    |    1    |\n");
+    printf("|----------|---------|\n");
+    printf("|    C     |    1    |\n");
+    printf("|----------|---------|\n");
+    printf("|    D     |    0    |\n");
+    printf("|----------|---------|\n");
+    printf("|    F     |    1    |\n");
+    printf("|--------------------|\n");
+
+
+}
+}
+
+
